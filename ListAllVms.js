@@ -1,8 +1,9 @@
-const gce=require('@google-cloud/compute')({
+const gce=require('@google-cloud/compute')
+const compute=new gce({
     projectId: 'pwujczyk1'
 })
 
-const zone=gce.zone('us-central1-a')
+const zone=compute.zone('us-central1-a')
 
 console.log('getting your vms');
 zone.getVMs().then((data)=>{

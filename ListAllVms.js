@@ -1,6 +1,6 @@
 const gce=require('@google-cloud/compute')
 const compute=new gce({
-    projectId: 'pwujczyk1'
+    projectId: 'pwujczyklearning'
 })
 
 const zone=compute.zone('us-central1-a')

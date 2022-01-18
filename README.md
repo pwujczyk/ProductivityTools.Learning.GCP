@@ -23,3 +23,6 @@ Stopped learning-cloud-demo
 
 Latency between data center in the same city <1ms
 Latency between Data centers USA and Taiwan ~200ms
+
+Zone - we can imagine as single building, Two services in the same zone will be toghether impacted
+Region - Like a city - services can be not impacted by power outage, but might be impacted by tornado

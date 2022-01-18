@@ -20,3 +20,6 @@ stopping learning-cloud-demo ...
 Done
 Stopped learning-cloud-demo
 ```
+
+Latency between data center in the same city <1ms
+Latency between Data centers USA and Taiwan ~200ms

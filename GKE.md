@@ -13,5 +13,4 @@ kubectl get service hello-server
 
 kubectl delete servce hello-server
 gcloud container clusters delete hello-cluster --location us-central1
-
 ```
